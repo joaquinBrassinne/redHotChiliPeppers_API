@@ -18,6 +18,7 @@ public class RedHotChiliPeppers {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id_redHot;
+    private String nombre;
     @OneToMany
     private List<Albums> listaAlbumes;
     
